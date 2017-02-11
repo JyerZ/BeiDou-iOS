@@ -20,6 +20,7 @@
 		9287F9621E4812E200D981F9 /* Application.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9287F9611E4812E200D981F9 /* Application.plist */; };
 		9287F9641E4812F900D981F9 /* News.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9287F9631E4812F900D981F9 /* News.plist */; };
 		9287F9661E48131500D981F9 /* Intro2Terms.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9287F9651E48131500D981F9 /* Intro2Terms.plist */; };
+		92DAEAA81E4F122D00BCB2F3 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DAEAA71E4F122D00BCB2F3 /* TabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		9287F9611E4812E200D981F9 /* Application.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Application.plist; sourceTree = "<group>"; };
 		9287F9631E4812F900D981F9 /* News.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = News.plist; sourceTree = "<group>"; };
 		9287F9651E48131500D981F9 /* Intro2Terms.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Intro2Terms.plist; sourceTree = "<group>"; };
+		92DAEAA71E4F122D00BCB2F3 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				926B9A491E34C5530096CD5B /* AppDelegate.swift */,
+				92DAEAA71E4F122D00BCB2F3 /* TabBarController.swift */,
 				926B9A4B1E34C5530096CD5B /* AboutViewController.swift */,
 				926B9A4D1E34C5530096CD5B /* ApplicationViewController.swift */,
 				923707221E387462005B1345 /* NewsViewController.swift */,
@@ -166,6 +169,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				923707231E387462005B1345 /* NewsViewController.swift in Sources */,
+				92DAEAA81E4F122D00BCB2F3 /* TabBarController.swift in Sources */,
 				923707251E387518005B1345 /* Intro2TermsViewController.swift in Sources */,
 				926B9A4E1E34C5530096CD5B /* ApplicationViewController.swift in Sources */,
 				924235551E480F4900B3E2E8 /* DetailViewController.swift in Sources */,

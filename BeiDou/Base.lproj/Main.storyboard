@@ -157,7 +157,7 @@
         <scene sceneID="wSB-Vl-EbL">
             <objects>
                 <navigationController title="Intro2Terms_Navigation" id="IUY-xN-meG" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="科普" image="second" id="fy5-eb-L4O"/>
+                    <tabBarItem key="tabBarItem" title="科普" image="intro2terms" selectedImage="intro2terms_s" id="fy5-eb-L4O"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Zd5-Cq-1wV">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -256,7 +256,7 @@
         <scene sceneID="8W5-xH-eZh">
             <objects>
                 <navigationController title="About_Navigation" id="s1Z-TG-BEp" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="简介" image="first" id="MuC-UY-ms1"/>
+                    <tabBarItem key="tabBarItem" title="简介" image="about" selectedImage="about_s" id="MuC-UY-ms1"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="qbG-eb-QCc">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -273,7 +273,7 @@
         <scene sceneID="c2S-38-oRm">
             <objects>
                 <navigationController title="News_Navigation" id="IqX-ey-8dD" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="新闻" image="first" id="l5A-ra-ZDf"/>
+                    <tabBarItem key="tabBarItem" title="新闻" image="news" selectedImage="news_s" id="l5A-ra-ZDf"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="rh6-aJ-SDt">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -290,7 +290,7 @@
         <scene sceneID="1uX-13-0la">
             <objects>
                 <navigationController title="Application_Navigation" id="Nyh-O4-gmI" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="应用" image="second" id="Ykg-4g-p7i"/>
+                    <tabBarItem key="tabBarItem" title="应用" image="application" selectedImage="application_s" id="Ykg-4g-p7i"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="A2j-vk-s0N">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -306,7 +306,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
             <objects>
-                <tabBarController id="49e-Tb-3d3" sceneMemberID="viewController">
+                <tabBarController id="49e-Tb-3d3" customClass="TabBarController" customModule="BeiDou" customModuleProvider="target" sceneMemberID="viewController">
                     <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
                         <rect key="frame" x="0.0" y="975" width="768" height="49"/>
@@ -327,8 +327,14 @@
     </scenes>
     <resources>
         <image name="Beidou" width="172" height="114"/>
-        <image name="first" width="30" height="30"/>
-        <image name="second" width="30" height="30"/>
+        <image name="about" width="30" height="30"/>
+        <image name="about_s" width="30" height="30"/>
+        <image name="application" width="30" height="30"/>
+        <image name="application_s" width="30" height="30"/>
+        <image name="intro2terms" width="30" height="30"/>
+        <image name="intro2terms_s" width="30" height="30"/>
+        <image name="news" width="30" height="30"/>
+        <image name="news_s" width="30" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="VhB-TY-pRO"/>
