@@ -37,7 +37,7 @@ class AboutViewController: UIViewController {
     
     func bottonTaped() {
         let title = "关于开发者"
-        let msg = "指导老师：陆骥 \n 开发小组： \n 张建银，张宝峰，席国庆，曾浩 \n CopyRight © 2017 ZZXZ.Group \n 保留所有权利"
+        let msg = "指导老师：LJ \n 开发小组： \n ZJY，ZBF，XGQ，ZH \n CopyRight © 2017 ZZXZ.Group \n 保留所有权利\n说明：由于电子版作品中不能含有作者姓名及其他信息，因此仅用缩写代替"
         let controller = UIAlertController(title: title,message: msg,preferredStyle: .alert)
         let cancelTitle = "确定"
         let cancelAction = UIAlertAction(title: cancelTitle,style: .cancel,handler: nil)

@@ -158,9 +158,10 @@
             <objects>
                 <navigationController title="Intro2Terms_Navigation" id="IUY-xN-meG" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="科普" image="intro2terms" selectedImage="intro2terms_s" id="fy5-eb-L4O"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Zd5-Cq-1wV">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="Zd5-Cq-1wV">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.46274509800000002" green="0.67360329829999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </navigationBar>
                     <connections>
                         <segue destination="Uvb-Ua-Xhg" kind="relationship" relationship="rootViewController" id="0En-2r-9DX"/>
@@ -257,9 +258,10 @@
             <objects>
                 <navigationController title="About_Navigation" id="s1Z-TG-BEp" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="简介" image="about" selectedImage="about_s" id="MuC-UY-ms1"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="qbG-eb-QCc">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="qbG-eb-QCc">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.46274509800000002" green="0.67360329829999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </navigationBar>
                     <connections>
                         <segue destination="9pv-A4-QxB" kind="relationship" relationship="rootViewController" id="Ubc-oh-S2b"/>
@@ -274,9 +276,10 @@
             <objects>
                 <navigationController title="News_Navigation" id="IqX-ey-8dD" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="新闻" image="news" selectedImage="news_s" id="l5A-ra-ZDf"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="rh6-aJ-SDt">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="rh6-aJ-SDt">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.46274509803921571" green="0.67360329829999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </navigationBar>
                     <connections>
                         <segue destination="4pe-rp-x9c" kind="relationship" relationship="rootViewController" id="Wpu-FR-lzd"/>
@@ -291,9 +294,10 @@
             <objects>
                 <navigationController title="Application_Navigation" id="Nyh-O4-gmI" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="应用" image="application" selectedImage="application_s" id="Ykg-4g-p7i"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="A2j-vk-s0N">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="A2j-vk-s0N">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.46274509800000002" green="0.67360329829999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </navigationBar>
                     <connections>
                         <segue destination="Kh8-lh-3rX" kind="relationship" relationship="rootViewController" id="mjj-70-WYi"/>
@@ -337,6 +341,6 @@
         <image name="news_s" width="30" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="VhB-TY-pRO"/>
+        <segue reference="pMz-of-M3G"/>
     </inferredMetricsTieBreakers>
 </document>
