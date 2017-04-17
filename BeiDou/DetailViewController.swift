@@ -16,9 +16,14 @@ class DetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        detailText.isScrollEnabled = false
         detailText.text = content
 
         // Do any additional setup after loading the view.
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        detailText.isScrollEnabled = true
     }
 
     override func didReceiveMemoryWarning() {

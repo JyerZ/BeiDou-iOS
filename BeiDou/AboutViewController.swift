@@ -20,6 +20,8 @@ class AboutViewController: UIViewController {
         let path = Bundle.main.path(forResource: "About", ofType: "plist")
         let Info = NSDictionary.init(contentsOfFile: path!)
         about = Info?["about"]! as! String
+        
+        aboutTV.isScrollEnabled = false
         aboutTV.text = about
         
         let button = UIButton(frame:CGRect.init(x: 0, y: 0, width: 20, height: 20))
@@ -28,6 +30,10 @@ class AboutViewController: UIViewController {
         let barButton = UIBarButtonItem(customView: button)
         self.navigationItem.leftBarButtonItem = barButton
         
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        aboutTV.isScrollEnabled = true
     }
 
     override func didReceiveMemoryWarning() {
